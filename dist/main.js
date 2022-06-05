@@ -1,0 +1,1 @@
+data=new Date,JSON.parse(null==localStorage.getItem("notes"))?arr=[]:arr=JSON.parse(localStorage.getItem("notes"));
